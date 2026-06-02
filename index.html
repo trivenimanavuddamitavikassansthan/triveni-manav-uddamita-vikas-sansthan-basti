@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="assets/images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homepage | Triveni Manav Uddamita Vikas Sansthan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+/* Basic Frontend Protection */
+document.addEventListener("contextmenu", e => e.preventDefault());
+
+document.addEventListener("keydown", function(e){
+  if (
+    e.key === "F12" ||
+    (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase())) ||
+    (e.ctrlKey && ["U","S","C"].includes(e.key.toUpperCase()))
+  ) {
+    e.preventDefault();
+  }
+});
+
+/* Disable Copy */
+document.addEventListener('copy', e => e.preventDefault());
+
+/* Disable Cut */
+document.addEventListener('cut', e => e.preventDefault());
+
+/* Disable Paste */
+document.addEventListener('paste', e => e.preventDefault());
+
+/* Disable Drag */
+document.addEventListener('dragstart', e => e.preventDefault());
+
+/* Console Warning */
+console.log("%cSTOP!", "color:red;font-size:40px;font-weight:bold;");
+console.log("This website is protected.");
+
+</script>
+
+<body class="page-home">
+
+    <header class="topbar">
+
+        <div class="top-strip">
+            Community Welfare & Social Support:🔹Social Care & Public Support🔹Community Growth Mission🔹Social Justice & Recovery Assistance🔹Building Stronger Lives Together
+        </div>
+
+        <div class="brand-row">
+
+            <!-- LEFT SIDE: Sansthan Name (same on every page) -->
+            <a class="brand">
+
+                <div class="logo-mark" onclick="openLogoPopup()">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </div>
+
+                <div class="brand-name">
+
+                    <b>
+                        <span class="orange">Triveni</span>
+                        <span class="foundation-orange">Manav Uddamita Vikas Sansthan</span>
+                        <br>
+                        <span class="orange">त्रिवेणी</span>
+                        <span class="foundation-orange">मानव उद्यमिता विकास संस्थान</span>
+                    </b>
+
+                    <small>
+                        (Registered Under FCRA-1976, CSO Registered Under SRA-1860, PAN, 12A & 80G)<br>
+                        Regd. Address: Shivji Puram, Post- PureNarsinghBhan, Sadar, Pratapgarh, Uttar Pradesh - 230001
+                    </small>
+
+                </div>
+
+            </a>
+
+            <!-- RIGHT SIDE: Nasha Mukti Kendra Details (plain text, no box) -->
+            <div class="right-title plain-right-title">
+                <b>Nasha Mukti Kendra<br>
+                    नशा मुक्ति केंद्र</b>
+
+                <small>
+                    📲+91-9305457578 |📩bhushanpbhup@gmail.com<br>
+                    Campus Rajendra Hospital, Lohri, Munderwa Marg, Basti, Uttar Pradesh
+                </small>
+            </div>
+
+        </div>
+
+        <button class="menu-btn">☰ Menu</button>
+
+        <nav class="nav">
+            <a href="index.html" class="home-icon">🏠</a>
+            <a href="founder.html">Founder’s Legacy</a>
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Projects & Milestones</a>
+            <a href="team.html">Teams</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="resources.html">Resources</a>
+            <a href="cctv.html">CCTV</a>
+            <a href="contact.html">Contact Us</a>
+
+            <span class="datebox" id="datetime"></span>
+        </nav>
+
+    </header>
+
+  <section class="hero">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-content">
+
+<h1 id="typing-text"></h1>
+        <h2>
+            नशे की बेड़ियों से आज़ादी पाएँ 🔹 सम्पूर्ण स्वास्थ्य की ओर बढ़ें 🔹 बेहतर और सुरक्षित भविष्य अपनाएँ 🔹 आत्मविश्वास के साथ नई ज़िंदगी की शुरुआत करें
+        </h2>
+
+        <p>
+            Triveni Manav Uddamita Vikas Sansthan : supports addiction recovery through counselling, rehabilitation, wellness and 
+            family care, helping individuals restore confidence, self-respect & healthier future.
+        <br>
+            त्रिवेणी मानव उद्यमिता विकास संस्थान - काउंसलिंग, पुनर्वास, स्वास्थ्य सेवाओं और पारिवारिक सहयोग के माध्यम से नशा मुक्ति में 
+            सहायता कर बेहतर, सम्मानजनक जीवन प्रदान करता है।
+        </p>
+
+        <div class="hero-btns">
+
+            <a class="btn" href="contact.html">
+                Get Support Now
+            </a>
+
+            <a class="btn" href="programs.html">
+                View Our Work
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE SLIDESHOW -->
+    <div class="hero-slideshow">
+
+        <img src="assets/images/homeslideshow/homeslideshow-image1.jpg" class="slide active" alt="Image 1">
+
+        <img src="assets/images/homeslideshow/homeslideshow-image2.jpg" class="slide" alt="Image 2">
+
+        <img src="assets/images/homeslideshow/homeslideshow-image3.jpg" class="slide" alt="Image 3">
+
+        <img src="assets/images/homeslideshow/homeslideshow-image4.jpg" class="slide" alt="Image 4">
+
+        <img src="assets/images/homeslideshow/homeslideshow-image5.jpg" class="slide" alt="Image 5">
+
+    </div>
+
+</section>
+    <section class="section">
+
+        <div class="grid grid-4">
+
+            <div class="card feature">
+                <div class="icon">❤</div>
+
+                <h3>Human-Centred Care
+                </br> मानवीय देखभाल
+                </h3>
+
+                <p>
+                    Dignified, confidential and practical support
+                    for every individual and family.
+                </p>
+            </div>
+
+            <div class="card feature">
+                <div class="icon">🏠</div>
+
+                <h3>Safe & Disciplined
+                   </br> सुरक्षित व अनुशासित
+                </h3>
+
+                <p>
+                    A calm, clean and supervised space for stable recovery.
+                </p>
+            </div>
+
+            <div class="card feature">
+                <div class="icon">🧭</div>
+
+                <h3>Structured Recovery
+                    </br> व्यवस्थित रिकवरी
+                </h3>
+
+                <p>
+                    Daily routine, counselling, wellness activities and relapse-prevention support.
+                </p>
+            </div>
+
+            <div class="card feature">
+                <div class="icon">🌱</div>
+
+                <h3>Stronger Tomorrow
+                     </br> मजबूत कल
+                </h3>
+
+                <p>
+                    Helping individuals regain confidence, relationships, healthy habits and direction.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <b>24×7</b> Support
+            </div>
+
+            <div class="stat">
+                <b>100%</b> Confidential
+            </div>
+
+            <div class="stat">
+                <b>Complete</b> Care
+            </div>
+
+            <div class="stat">
+                <b>Family</b> Guidance
+            </div>
+
+        </div>
+<br>
+        <div class="strip">
+            “Defeat addiction, reclaim your identity, and rise toward a life of dignity, strength, and hope.”</br>
+            “नशे को हराएँ, अपनी पहचान वापस पाएँ और सम्मान, शक्ति व नई उम्मीदों के साथ जीवन को फिर से सँवारें।”
+        </div>
+
+   <br><br>
+
+    <div class="two-col">
+
+        <div>
+
+            <h2 class="title">
+                Why Choose
+                <span class="orange-text">
+                    Triveni Manav Uddamita Vikas Sansthan?
+                </span>
+            </h2>
+
+            <p class="lead">
+                Addiction affects health, relationships, confidence and future.  
+                Our recovery process focuses on healing, discipline, family support and positive lifestyle change.
+                <br>
+                नशा स्वास्थ्य, रिश्तों, आत्मविश्वास और भविष्य को प्रभावित करता है।  
+                हमारी रिकवरी प्रक्रिया उपचार, अनुशासन, पारिवारिक सहयोग और बेहतर जीवनशैली पर केंद्रित है।
+            </p>
+
+            <ul class="list">
+
+                <li>
+                    Customized recovery programs based on individual condition and needs
+                    <br>
+                    <small>
+                        प्रत्येक व्यक्ति की स्थिति और आवश्यकता के अनुसार विशेष रिकवरी योजना
+                    </small>
+                </li>
+
+                <li>
+                    Professional counselling for stress, anxiety, anger, guilt and emotional imbalance
+                    <br>
+                    <small>
+                        तनाव, चिंता, गुस्सा, अपराधबोध और भावनात्मक असंतुलन के लिए विशेषज्ञ काउंसलिंग
+                    </small>
+                </li>
+
+                <li>
+                    Daily yoga, meditation and wellness-focused lifestyle practices
+                    <br>
+                    <small>
+                        योग, ध्यान और स्वस्थ जीवनशैली पर आधारित दैनिक गतिविधियाँ
+                    </small>
+                </li>
+
+                <li>
+                    Family counselling and guidance to strengthen support and prevent relapse
+                    <br>
+                    <small>
+                        परिवार को सहयोग मजबूत करने और दोबारा नशे से बचाव हेतु मार्गदर्शन
+                    </small>
+                </li>
+
+                <li>
+                    Respectful, confidential and dignity-focused recovery environment
+                    <br>
+                    <small>
+                        सम्मान, गोपनीयता और गरिमा पर आधारित सुरक्षित रिकवरी वातावरण
+                    </small>
+                </li>
+
+            </ul>
+
+        </div>
+
+<div class="poster">
+
+<!-- CENTER LOGO -->
+<div class="poster-logo">
+
+    <img src="assets/images/logo.png"
+         alt="Triveni Manav Uddamita Vikas Sansthan Logo">
+
+</div>
+
+    <h2>
+        TRIVENI MANAV UDDAMITA VIKAS SANSTHAN
+        <br>
+        त्रिवेणी मानव उद्यमिता विकास संस्थान
+    </h2>
+
+    <h3>
+        Nasha Mukti Kendra, Basti
+        <br>
+        नशा मुक्ति केंद्र, बस्ती
+    </h3>
+
+    <div class="badge-row">
+
+    <span class="badge">
+        Treatment | उपचार
+    </span>
+
+    <span class="badge">
+        Wellness | स्वास्थ्य
+    </span>
+
+    <span class="badge">
+        Support | सहयोग
+    </span>
+
+    <span class="badge">
+        New Beginning | नई शुरुआत
+    </span>
+
+    <span class="badge">
+        Healing | उपचार
+    </span>
+
+    <span class="badge">
+        Hope | उम्मीद
+    </span>
+
+    <span class="badge">
+        Guidance | मार्गदर्शन
+    </span>
+
+    <span class="badge">
+        Better Life | बेहतर जीवन
+    </span>
+
+    <span class="badge">
+        Confidence | आत्मविश्वास
+    </span>
+
+</div>
+<br>
+
+    <!-- BUTTON AREA -->
+    <div class="poster-buttons">
+
+        <a class="btn download-btn"
+           href="assets/images/home-banner/triveni-banner.jpg"
+           download="Triveni Manav_Uddamita Vikas Sansthan_Banner.jpg">
+
+          ⬇️  Download Banner to Share
+
+        </a>
+
+    </div>
+
+</div>
+
+</div>
+
+    </section>
+
+<!-- LOGO POPUP -->
+
+<div class="logo-popup" id="logoPopup">
+
+    <span class="close-popup" onclick="closeLogoPopup()">
+        ✕
+    </span>
+
+    <img src="assets/images/logo.png" alt="Logo">
+
+</div>
+
+    <footer class="footer">
+
+    <div class="footer-left">
+        🔒 Basic Protection Enabled<br>
+        ®️ 2026. All rights reserved.
+    </div>
+
+    <div class="footer-right">
+        <b>@Triveni Manav Uddamita Vikas Sansthan</b>
+        — Nasha Mukti Kendra, Basti |
+        <br>
+
+        <b>Created & Maintained by :</b>
+
+        Tushar Srivastava
+        (
+        <a href="https://www.linkedin.com/in/tusharrbl"
+           class="footer-link"
+           target="_blank">
+            Contact
+        </a>
+        )
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
